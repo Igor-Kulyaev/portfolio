@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <nav class="navigation">
+                    <a class="portfolio" href="index.html">
+                        <img class="logo__img" src="images/portfolio.svg" alt="logo">
+                    </a>
+                    <ul class="navigation__list">
+                        <li class="navigation__list-item">
+                            <a class="navigation__link" href="index.html">Works</a>
+                        </li>
+                        <li class="navigation__list-item">
+                            <a class="navigation__link navigation__link--active" href="code.html">Code practice</a>
+                        </li>
+                        <li class="navigation__list-item">
+                            <a id="cv" class="navigation__link" href="cv.pdf" target="_blank">CV
+                                <img class="logo__img" src="images/pdf.svg" alt="logo">
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="burger__menu">
+                        <div class="burger__line line-one"></div>
+                        <div class="burger__line line-two"></div>
+                        <div class="burger__line line-three"></div>
+                    </div>
+                    <div class="menu-mob">
+                        <ul class="menu__list">
+                            <li class="li-image-item">
+                                <a class="close-image" href="#/">
+                                    <img class="close__image" src="images/close.svg" alt="image">
+                                </a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__link" href="index.html">Works</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__link" href="index.html">Code practice</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__link" href="index.html">CV</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="profile_info">
+                    <div class="img__wrapper">
+                        <img class="photo" src="images/photo.png" alt="photo">
+                    </div>
+                    <div class="profile__name">Ihor Kuliaiev</div>
+                    <div class="social__links">
+                        <a class="social__link" href="https://www.linkedin.com/in/igor-kulyaev/" target="blank">
+                            <img src="images/linkedin.svg" alt="image" class="social__img">
+                        </a>
+                        <a class="social__link" href="https://github.com/Igor-Kulyaev" target="_blank">
+                            <img src="images/github.svg" alt="image" class="social__img">
+                        </a>
+                    </div>
+                    <div class="profile__email">
+                        <a class="email__link" href="mailto:kulyaev.igor@gmail.com">kulyaev.igor@gmail.com</a>
+                    </div>
+                </div>
+                <div class="works__description">
+                    <h3 class="welcome__page">Code practice</h3>
+                    <div class="text__paragraphs">
+                        <p class="works__text">
+                            This is Code practice page.
+                        </p>
+                        <p class="works__text">
+                            My purpose was to bettter get acquainted with coding on JS and React, to make some
+                            modifications
+                            to existing code and find out which effects may occur after certain changes.
+                        </p>
+                        <p class="works__text">
+                            I provided here some ordinary apps and landing pages with which ones I practiced on HTML,
+                            CSS,
+                            pure Java Script and React.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="main__wrapper">
+                <div class="post">
+                    <div class="images">
+                        <div class="image-item">
+                            <img src="images/react1.png" alt="work" class="post__view">
+                        </div>
+                        <div class="image-item">
+                            <img src="images/react2.png" alt="work" class="post__view">
+                        </div>
+                        <div class="image-item">
+                            <img src="images/react3.png" alt="work" class="post__view">
+                        </div>
+                    </div>
+                    <div class="post-preview">
+                        <h6 class="post-title">React</h6>
+                        <p class="post-info">This app allows to control monthly expenses and incomes.</p>
+                        <p class="post-stack">Stack</p>
+                        <ul class="tags">
+                            <li class="tag html">React</li>
+                            <li class="tag css">CSS</li>
+                            <li class="tag javascript">JavaScript</li>
+                            <li class="tag node">HTML</li>
+                            <li class="tag gulp">Node</li>
+                        </ul>
+                        <ul class="buttons__list">
+                            <li class="button-item">
+                                <a class="button-link" href="https://github.com/Igor-Kulyaev/react-practice"
+                                    target="_blank">Code</a>
+                            </li>
+                            <li class="button-item">
+                                <a class="button-link" href="#/">In progress</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="images">
+                        <div class="image-item">
+                            <img src="images/carsharing1.png" alt="work" class="post__view">
+                        </div>
+                        <div class="image-item">
+                            <img src="images/carsharing2.png" alt="work" class="post__view">
+                        </div>
+                        <div class="image-item">
+                            <img src="images/carsharing3.png" alt="work" class="post__view">
+                        </div>
+                    </div>
+                    <div class="post-preview">
+                        <h6 class="post-title">Carsharing landing page</h6>
+                        <p class="post-info">Markup website practice</p>
+                        <p class="post-stack">Stack</p>
+                        <ul class="tags">
+                            <li class="tag html">HTML</li>
+                            <li class="tag css">CSS</li>
+                            <li class="tag javascript">JavaScript</li>
+                            <li class="tag node">Slick</li>
+                            <li class="tag gulp">Fancybox</li>
+                        </ul>
+                        <ul class="buttons__list">
+                            <li class="button-item">
+                                <a class="button-link" href="https://github.com/Igor-Kulyaev/CarSharingLandingTest"
+                                    target="_blank">Code</a>
+                            </li>
+                            <li class="button-item">
+                                <a class="button-link" href="https://igor-kulyaev.github.io/CarSharingLandingTest/"
+                                    target="_blank">Source</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="images-fruits">
+                        <div class="image-item">
+                            <img src="images/fruits.png" alt="work" class="post__view">
+                        </div>
+                    </div>
+                    <div class="post-preview">
+                        <h6 class="post-title">Fruits</h6>
+                        <p class="post-info">Adaptive markup website practice</p>
+                        <p class="post-stack">Stack</p>
+                        <ul class="tags">
+                            <li class="tag html">HTML</li>
+                            <li class="tag css">CSS</li>
+                            <li class="tag javascript">JavaScript</li>
+                            <li class="tag node">Slick</li>
+                        </ul>
+                        <ul class="buttons__list">
+                            <li class="button-item">
+                                <a class="button-link" href="https://github.com/Igor-Kulyaev/HTML-CSS-layout"
+                                    target="_blank">Code</a>
+                            </li>
+                            <li class="button-item">
+                                <a class="button-link" href="https://igor-kulyaev.github.io/HTML-CSS-layout/"
+                                    target="_blank">Source</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="images-travel">
+                        <div class="image-item">
+                            <img src="images/travel.png" alt="work" class="post__view">
+                        </div>
+                    </div>
+                    <div class="post-preview">
+                        <h6 class="post-title">Travel landing page</h6>
+                        <p class="post-info">Markup website practice</p>
+                        <p class="post-stack">Stack</p>
+                        <ul class="tags">
+                            <li class="tag html">HTML</li>
+                            <li class="tag css">CSS</li>
+                            <li class="tag javascript">JavaScript</li>
+                        </ul>
+                        <ul class="buttons__list">
+                            <li class="button-item">
+                                <a class="button-link" href="https://github.com/Igor-Kulyaev/LandingPage"
+                                    target="_blank">Code</a>
+                            </li>
+                            <li class="button-item">
+                                <a class="button-link" href="https://igor-kulyaev.github.io/LandingPage/"
+                                    target="_blank">Source</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="images-calculator">
+                        <div class="image-item">
+                            <img src="images/calculator.png" alt="work" class="post__view">
+                        </div>
+                    </div>
+                    <div class="post-preview">
+                        <h6 class="post-title">Calculator</h6>
+                        <p class="post-stack">Stack</p>
+                        <ul class="tags">
+                            <li class="tag html">HTML</li>
+                            <li class="tag css">CSS</li>
+                            <li class="tag javascript">JavaScript</li>
+                        </ul>
+                        <ul class="buttons__list">
+                            <li class="button-item">
+                                <a class="button-link" href="https://github.com/Igor-Kulyaev/calculator"
+                                    target="_blank">Code</a>
+                            </li>
+                            <li class="button-item">
+                                <a class="button-link" href="https://igor-kulyaev.github.io/calculator/"
+                                    target="_blank">Source</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="image-tetris">
+                        <div class="image-item">
+                            <img src="images/tetris.png" alt="work" class="post__view">
+                        </div>
+                    </div>
+                    <div class="post-preview">
+                        <h6 class="post-title">Tetris</h6>
+                        <p class="post-stack">Stack</p>
+                        <ul class="tags">
+                            <li class="tag html">HTML</li>
+                            <li class="tag css">CSS</li>
+                            <li class="tag javascript">JavaScript</li>
+                        </ul>
+                        <ul class="buttons__list">
+                            <li class="button-item">
+                                <a class="button-link" href="https://github.com/Igor-Kulyaev/tetris"
+                                    target="_blank">Code</a>
+                            </li>
+                            <li class="button-item">
+                                <a class="button-link" href="https://igor-kulyaev.github.io/tetris/"
+                                    target="_blank">Source</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="post">
+                    <div class="image-to-do-list">
+                        <div class="image-item">
+                            <img src="images/todolist.png" alt="work" class="post__view">
+                        </div>
+                    </div>
+                    <div class="post-preview">
+                        <h6 class="post-title">To do app</h6>
+                        <p class="post-stack">Stack</p>
+                        <ul class="tags">
+                            <li class="tag html">HTML</li>
+                            <li class="tag css">CSS</li>
+                            <li class="tag javascript">JavaScript</li>
+                        </ul>
+                        <ul class="buttons__list">
+                            <li class="button-item">
+                                <a class="button-link" href="https://github.com/Igor-Kulyaev/todolist"
+                                    target="_blank">Code</a>
+                            </li>
+                            <li class="button-item">
+                                <a class="button-link" href="https://igor-kulyaev.github.io/todolist/"
+                                    target="_blank">Source</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="script.js">
+    </script>
+
+</body>
+
+</html>

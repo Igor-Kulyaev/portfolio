@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <nav class="navigation">
+                    <a class="portfolio" href="index.html">
+                        <img class="logo__img" src="images/portfolio.svg" alt="logo">
+                    </a>
+                    <ul class="navigation__list">
+                        <li class="navigation__list-item">
+                            <a class="navigation__link navigation__link--active" href="index.html">Works</a>
+                        </li>
+                        <li class="navigation__list-item">
+                            <a class="navigation__link" href="code.html">Code practice</a>
+                        </li>
+                        <li class="navigation__list-item">
+                            <a id="cv" class="navigation__link" href="cv.pdf" target="_blank">CV
+                                <img class="logo__img" src="images/pdf.svg" alt="logo">
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="burger__menu">
+                        <div class="burger__line line-one"></div>
+                        <div class="burger__line line-two"></div>
+                        <div class="burger__line line-three"></div>
+                    </div>
+                    <div class="menu-mob">
+                        <ul class="menu__list">
+                            <li class="li-image-item">
+                                <a class="close-image" href="#/">
+                                    <img class="close__image" src="images/close.svg" alt="image">
+                                </a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__link" href="index.html">Works</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__link" href="index.html">Code practice</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__link" href="index.html">CV</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="profile_info">
+                    <div class="img__wrapper">
+                        <img class="photo" src="images/photo.png" alt="photo">
+                    </div>
+                    <div class="profile__name">Ihor Kuliaiev</div>
+                    <div class="social__links">
+                        <a class="social__link" href="https://www.linkedin.com/in/igor-kulyaev/" target="_blank">
+                            <img src="images/linkedin.svg" alt="image" class="social__img">
+                        </a>
+                        <a class="social__link" href="https://github.com/Igor-Kulyaev" target="_blank">
+                            <img src="images/github.svg" alt="image" class="social__img">
+                        </a>
+                    </div>
+                    <div class="profile__email">
+                        <a class="email__link" href="mailto:kulyaev.igor@gmail.com">kulyaev.igor@gmail.com</a>
+                    </div>
+                </div>
+                <div class="works__description">
+                    <h3 class="welcome__page">My works</h3>
+                    <div class="text__paragraphs">
+                        <p class="works__text">
+                            Hello! My name is Ihor. I am seeking a position of Trainee / Junior Java Script developer.
+                        </p>
+                        <p class="works__text">
+                            Here you may find some of my works made on HTML, CSS, and Java Script.
+                        </p>
+                        <p class="works__text">
+                            A brief description and a list of used technologies is provided under each slide show.
+                        </p>
+                        <p class="works__text">
+                            You
+                            may
+                            also find the project code itself and view the corresponding application or a website in the
+                            browser.
+                        </p>
+                        <p class="works__text">
+                            Thank you for your attention!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="main__wrapper">
+                <div class="post">
+                    <div class="images">
+                        <div class="image-item">
+                            <img src="images/weather1.png" alt="work" class="post__view">
+                        </div>
+                        <div class="image-item">
+                            <img src="images/weather2.png" alt="work" class="post__view">
+                        </div>
+                        <div class="image-item">
+                            <img src="images/weather3.png" alt="work" class="post__view">
+                        </div>
+                    </div>
+                    <div class="post-preview">
+                        <h6 class="post-title">PWA Weather App</h6>
+                        <p class="post-info">This is a PWA which may be downloaded on your mobile device or desktop. It
+                            also runs as an ordinary website, therefore, you may just check it in the new browser
+                            window. Open-Weather-Map API was used to get the data for the application.</p>
+                        <p class="post-stack">Stack</p>
+                        <ul class="tags">
+                            <li class="tag html">HTML</li>
+                            <li class="tag css">CSS</li>
+                            <li class="tag javascript">JavaScript</li>
+                            <li class="tag javascript">Weather API</li>
+                        </ul>
+                        <ul class="buttons__list">
+                            <li class="button-item">
+                                <a class="button-link" href="https://github.com/Igor-Kulyaev/PWA-Weather-app"
+                                    target="_blank">Code</a>
+                            </li>
+                            <li class="button-item">
+                                <a class="button-link" href="https://igor-kulyaev.github.io/PWA-Weather-app/"
+                                    target="_blank">Source</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="images">
+                        <div class="image-item">
+                            <img src="images/tbot1.png" alt="work" class="post__view">
+                        </div>
+                        <div class="image-item">
+                            <img src="images/tbot2.png" alt="work" class="post__view">
+                        </div>
+                        <div class="image-item">
+                            <img src="images/tbot3.png" alt="work" class="post__view">
+                        </div>
+                    </div>
+                    <div class="post-preview">
+                        <h6 class="post-title">Telegram bot</h6>
+                        <p class="post-info">This telegram bot uses covid19-api. My purpose was to create a
+                            project using Node.js, deploying the project on Heroku hosting service while hiding
+                            corresponding keys with .env files usage.</p>
+                        <p class="post-stack">Stack</p>
+                        <ul class="tags">
+                            <li class="tag javascript">JavaScript</li>
+                            <li class="tag node">Node</li>
+                            <li class="tag gulp">API</li>
+                            <li class="tag scss">Heroku</li>
+                        </ul>
+                        <ul class="buttons__list">
+                            <li class="button-item">
+                                <a class="button-link" href="https://github.com/Igor-Kulyaev/covidstatisticsbot"
+                                    target="_blank">Code</a>
+                            </li>
+                            <li class="button-item">
+                                <a class="button-link" href="https://t.me/TestDataCovid19Bot" target="_blank">Source</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="images">
+                        <div class="image-item">
+                            <img src="images/snakegame1.png" alt="work" class="post__view">
+                        </div>
+                        <div class="image-item">
+                            <img src="images/snakegame2.png" alt="work" class="post__view">
+                        </div>
+                    </div>
+                    <div class="post-preview">
+                        <h6 class="post-title">PWA Snake Game</h6>
+                        <p class="post-info">This is a PWA snake game with options for
+                            playing with key arrows and buttons (for mobile users). The PWA may be opened in the browser
+                            and downloaded on your desktop or mobile device.</p>
+                        <p class="post-stack">Stack</p>
+                        <ul class="tags">
+                            <li class="tag html">HTML</li>
+                            <li class="tag css">CSS</li>
+                            <li class="tag javascript">JavaScript</li>
+                        </ul>
+                        <ul class="buttons__list">
+                            <li class="button-item">
+                                <a class="button-link" href="https://github.com/Igor-Kulyaev/PWA-snake-game"
+                                    target="_blank">Code</a>
+                            </li>
+                            <li class="button-item">
+                                <a class="button-link" href="https://igor-kulyaev.github.io/PWA-snake-game/"
+                                    target="_blank">Source</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="images">
+                        <div class="image-item">
+                            <img src="images/form1.png" alt="work" class="post__view">
+                        </div>
+                        <div class="image-item">
+                            <img src="images/form2.png" alt="work" class="post__view">
+                        </div>
+                        <div class="image-item">
+                            <img src="images/form3.png" alt="work" class="post__view">
+                        </div>
+                    </div>
+                    <div class="post-preview">
+                        <h6 class="post-title">Sign in / sign up form</h6>
+                        <p class="post-info">Sign in / sign up forms are being used everywhere now. Therefore, I created
+                            a form with 3 options for logging in, signing up, or sending password reset notification.
+                            These forms provide only the UI interaction. Just enter some symbols and check whether the
+                            input is allowed for submission.
+                        </p>
+                        <p class="post-stack">Stack</p>
+                        <ul class="tags">
+                            <li class="tag html">HTML</li>
+                            <li class="tag css">CSS</li>
+                            <li class="tag javascript">JavaScript</li>
+                        </ul>
+                        <ul class="buttons__list">
+                            <li class="button-item">
+                                <a class="button-link" href="https://github.com/Igor-Kulyaev/form-validation"
+                                    target="_blank">Code</a>
+                            </li>
+                            <li class="button-item">
+                                <a class="button-link" href="https://igor-kulyaev.github.io/form-validation/"
+                                    target="_blank">Source</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="images">
+                        <div class="image-item">
+                            <img src="images/website1.png" alt="work" class="post__view">
+                        </div>
+                        <div class="image-item">
+                            <img src="images/website2.png" alt="work" class="post__view">
+                        </div>
+                        <div class="image-item">
+                            <img src="images/website3.png" alt="work" class="post__view">
+                        </div>
+                    </div>
+                    <div class="post-preview">
+                        <h6 class="post-title">Furniture website</h6>
+                        <p class="post-info">This is an adaptive design website with a number of pages. Block Element
+                            Modifier methodology was applied to this website. The website was built with Gulp
+                            (converting .scss files into .css and minifying the files as well).</p>
+                        <p class="post-stack">Stack</p>
+                        <ul class="tags">
+                            <li class="tag html">HTML</li>
+                            <li class="tag css">CSS</li>
+                            <li class="tag javascript">JavaScript</li>
+                            <li class="tag node">Node</li>
+                            <li class="tag gulp">Gulp</li>
+                            <li class="tag scss">SCSS</li>
+                            <li class="tag scss">Slick</li>
+                            <li class="tag scss">Google API</li>
+                        </ul>
+                        <ul class="buttons__list">
+                            <li class="button-item">
+                                <a class="button-link" href="https://github.com/Igor-Kulyaev/furniture-store"
+                                    target="_blank">Code</a>
+                            </li>
+                            <li class="button-item">
+                                <a class="button-link" href="https://igor-kulyaev.github.io/furniture-store/"
+                                    target="_blank">Source</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="image-matrix">
+                        <div class="image-item">
+                            <img src="images/matrix.png" alt="work" class="post__view">
+                        </div>
+                    </div>
+                    <div class="post-preview">
+                        <h6 class="post-title">Matrix</h6>
+                        <p class="post-info">This is a dynamic matrix effect website </p>
+                        <p class="post-stack">Stack</p>
+                        <ul class="tags">
+                            <li class="tag html">HTML</li>
+                            <li class="tag css">CSS</li>
+                            <li class="tag javascript">JavaScript</li>
+                        </ul>
+                        <ul class="buttons__list">
+                            <li class="button-item">
+                                <a class="button-link" href="https://github.com/Igor-Kulyaev/matrix"
+                                    target="_blank">Code</a>
+                            </li>
+                            <li class="button-item">
+                                <a class="button-link" href="https://igor-kulyaev.github.io/matrix/"
+                                    target="_blank">Source</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="script.js">
+    </script>
+
+</body>
+
+</html>
