@@ -10,9 +10,11 @@ let menu_mob = document.querySelector('.menu-mob');
 let close_image = document.querySelector('.close-image');
 
 burger_menu.addEventListener('click', function () {
+    menu_mob.style.display = 'block';
     menu_mob.style.right = '15px';
 })
 
 close_image.addEventListener('click', function () {
+    menu_mob.style.display = 'none';
     menu_mob.style.right = '-1000px';
 })
