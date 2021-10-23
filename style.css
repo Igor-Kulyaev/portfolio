@@ -424,7 +424,7 @@ h6 {
   }
 
   .menu-mob {
-    display: block;
+    display: none;
     position: absolute;
     top: 0px;
     right: -1000px;
